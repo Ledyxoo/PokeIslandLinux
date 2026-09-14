@@ -1,4 +1,4 @@
-# PokeIsland Updater (Linux)
+# PokeIsland for Linux
 
 Outil de synchronisation automatique du modpack **PokeIsland** pour [Prism Launcher](https://prismlauncher.org/) sous Linux (Flatpak ou natif).
 
