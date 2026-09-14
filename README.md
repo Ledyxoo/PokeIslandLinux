@@ -37,7 +37,7 @@ curl -O https://raw.githubusercontent.com/Ledyxoo/PokeIslandLinux/main/PokeIslan
 Mise à jour simple (télécharge les fichiers manquants ou modifiés) :
 
 ```bash
-python3 pokeisland_linux.py
+python3 PokeIslandLinux.py
 ```
 
 Premier lancement : le script crée automatiquement l'instance `PokeIsland` dans Prism Launcher, avec Minecraft et Fabric déjà configurés. Il suffit ensuite de lancer l'instance depuis Prism Launcher.
