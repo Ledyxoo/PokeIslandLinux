@@ -6,6 +6,8 @@ Outil de synchronisation automatique du modpack **PokeIsland** pour [Prism Launc
 
 > **PokeIsland ne propose officiellement pas de launcher pour Linux** (uniquement Windows/Mac). Ce script comble ce manque : il permet aux joueurs Linux d'installer, mettre à jour et jouer sur le serveur PokeIsland via Prism Launcher, sans dépendre d'un launcher officiel non disponible sur cette plateforme.
 
+Le script devra être lancé à chaque mise à jour du serveur PokeIsland.
+
 Le script :
 
 - crée automatiquement l'instance Prism Launcher (Minecraft + Fabric) si elle n'existe pas ;
