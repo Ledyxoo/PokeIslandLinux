@@ -4,6 +4,8 @@ Outil de synchronisation automatique du modpack **PokeIsland** pour [Prism Launc
 
 🔗 Site officiel du serveur : [pokeisland.fr](https://pokeisland.fr/)
 
+> **PokeIsland ne propose officiellement pas de launcher pour Linux** (uniquement Windows/Mac). Ce script comble ce manque : il permet aux joueurs Linux d'installer, mettre à jour et jouer sur le serveur PokeIsland via Prism Launcher, sans dépendre d'un launcher officiel non disponible sur cette plateforme.
+
 Le script :
 
 - crée automatiquement l'instance Prism Launcher (Minecraft + Fabric) si elle n'existe pas ;
@@ -62,19 +64,19 @@ Premier lancement : le script crée automatiquement l'instance `PokeIsland` dans
 Simuler une mise à jour complète avant de l'appliquer pour de vrai :
 
 ```bash
-python3 pokeisland_linux.py --dry-run --clean
+python3 PokeIslandLinux.py --dry-run --clean
 ```
 
 Mettre à jour une instance nommée différemment, avec nettoyage interactif :
 
 ```bash
-python3 pokeisland_linux.py --name "PokeIsland-Test" --interactive
+python3 PokeIslandLinux.py --name "PokeIsland-Test" --interactive
 ```
 
 Accélérer les téléchargements sur une bonne connexion :
 
 ```bash
-python3 pokeisland_linux.py --threads 12
+python3 PokeIslandLinux.py --threads 12
 ```
 
 ## Protéger des fichiers personnels avec `.pokeignore`
@@ -105,7 +107,7 @@ Après chaque synchronisation, le script copie automatiquement le logo officiel 
 Pour désactiver ce comportement (par exemple si vous avez déjà personnalisé l'icône) :
 
 ```bash
-python3 pokeisland_linux.py --no-icon-update
+python3 PokeIslandLinux.py --no-icon-update
 ```
 
 ## Où sont installés les fichiers ?
