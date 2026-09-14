@@ -56,7 +56,7 @@ REQUEST_TIMEOUT = 30  # secondes
 
 MINECRAFT_VERSION = "1.21.1"
 FABRIC_INTERMEDIARY_VERSION = "1.21.1"
-FABRIC_LOADER_VERSION = "0.16.5"
+FABRIC_LOADER_VERSION = "0.19.5"
 
 # Les couleurs ANSI sont désactivées automatiquement si la sortie est redirigée
 # (fichier de log, pipe), afin de ne pas polluer les fichiers de sortie.
